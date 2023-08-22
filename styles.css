@@ -1,0 +1,23 @@
+/* This is the main CSS style for this site - Comments will explain how the code works! */
+
+/* Now 'body' is the selector, we are saying that 'this is how the 'body' should look like,
+basically, if we want ALL the paragraph to look like a certain way, we type paragraph {...;}
+*/
+
+div {
+    color: grey; /* This is actuall the text colour! */
+    font-size: 25px; /* Font size */
+    font-weight: bold; /* Font weight */
+    text-align: left; /* Where the text aligns - since this is applied on the body, all the body stuff will be aligned centred*/
+    margin-top: 100px; /* Margin from top */
+}
+
+
+body {
+    background: lightsteelblue; /* This is the background colour */
+    color: lightslategray; /* This is actuall the text colour! */
+    font-size: 50px; /* Font size */
+    font-weight: bold; /* Font weight */
+    text-align: center; /* Where the text aligns - since this is applied on the body, all the body stuff will be aligned centred*/
+    margin-top: 100px; /* Margin from top */
+}
