@@ -4,11 +4,12 @@
 basically, if we want ALL the paragraph to look like a certain way, we type paragraph {...;}
 */
 
-div {
+/* This is the style for the main list on the landing page - we are using a type selector here */
+.main {
     color: grey; /* This is actuall the text colour! */
     font-size: 25px; /* Font size */
     font-weight: bold; /* Font weight */
-    text-align: left; /* Where the text aligns - since this is applied on the body, all the body stuff will be aligned centred*/
+    text-align: center; /* Where the text aligns - since this is applied on the body, all the body stuff will be aligned centred*/
     margin-top: 100px; /* Margin from top */
 }
 
@@ -20,4 +21,11 @@ body {
     font-weight: bold; /* Font weight */
     text-align: center; /* Where the text aligns - since this is applied on the body, all the body stuff will be aligned centred*/
     margin-top: 100px; /* Margin from top */
+}
+
+img {
+    display: block; /* We always use block displays so elements 'stacks' on top of each other */
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
