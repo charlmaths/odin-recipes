@@ -7,25 +7,32 @@ basically, if we want ALL the paragraph to look like a certain way, we type para
 /* This is the style for the main list on the landing page - we are using a type selector here */
 .main {
     color: grey; /* This is actuall the text colour! */
-    font-size: 25px; /* Font size */
-    font-weight: bold; /* Font weight */
-    text-align: center; /* Where the text aligns - since this is applied on the body, all the body stuff will be aligned centred*/
-    margin-top: 100px; /* Margin from top */
+    font-weight: regular; /* Font weight */
+    text-align: left; /* Where the text aligns - since this is applied on the body, all the body stuff will be aligned centred*/
+    margin-top: 10px; /* Margin from top */
+    font-size: 50px; /* Font size */
+    font-family: 'Courier New', Courier, monospace, sans-serif;
 }
 
+.h1 {
+    color: grey; /* This is actuall the text colour! */
+    font-weight: regular; /* Font weight */
+    text-align: left; /* Where the text aligns - since this is applied on the body, all the body stuff will be aligned centred*/
+    margin-top: 10px; /* Margin from top */
+    font-size: 50px; /* Font size */
+    font-family: monospace, sans-serif;
+}
 
 body {
     background: lightsteelblue; /* This is the background colour */
-    color: lightslategray; /* This is actuall the text colour! */
-    font-size: 50px; /* Font size */
-    font-weight: bold; /* Font weight */
-    text-align: center; /* Where the text aligns - since this is applied on the body, all the body stuff will be aligned centred*/
-    margin-top: 100px; /* Margin from top */
-    font-family:Arial, Helvetica, sans-serif;
 }
 
 img {
     display: block; /* We always use block displays so elements 'stacks' on top of each other */
     height: auto;
     width: 500px;
+}
+
+*{
+    border: 2px solid red;
 }
