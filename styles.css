@@ -25,7 +25,6 @@ body {
 
 img {
     display: block; /* We always use block displays so elements 'stacks' on top of each other */
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
+    height: auto;
+    width: 500px;
 }
