@@ -21,6 +21,7 @@ body {
     font-weight: bold; /* Font weight */
     text-align: center; /* Where the text aligns - since this is applied on the body, all the body stuff will be aligned centred*/
     margin-top: 100px; /* Margin from top */
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 img {
